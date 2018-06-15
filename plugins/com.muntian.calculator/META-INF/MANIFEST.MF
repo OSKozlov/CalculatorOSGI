@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Calculator
+Bundle-SymbolicName: com.muntian.calculator
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: MUNTIAN
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: com.muntian.calculator.mathservice,
+ com.muntian.calculator.ui,
+ org.osgi.framework
+Require-Bundle: org.eclipse.swt;bundle-version="3.105.1"
+Bundle-Activator: com.muntian.calculator.Activator
